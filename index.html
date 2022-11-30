@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="modal-window__backdrop hidden" id="modal-backdrop"></div>
+    <div id="modal_1" class="modal-window">
+        <div class="modal-window__title">
+          <form class = 'modal__form' action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input"> <br>
+                    <button class="btn modal-close" id="subBtn">Перезвонить мне</button>
+                </form>
+        </div>
+      </div>
+
+      <div id="modal_2" class="modal-window">
+          <div data-close class="modal__close">&times;</div>
+        <div class="modal-window__title">
+          Thank you for your purchase!
+        </div>
+      </div>
+
+    <header>
+            <img id="menu-img" src="https://cdn-icons-png.flaticon.com/512/7997/7997242.png" alt="">
+            <ul class="menu_top">
+                <li><a href="#firstNav">How We Work</a></li>
+                <li><a href="#second-nav">Buy Music</a></li>
+                <li><a href="#">New Hits</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+            <button type="button" class="buttons js-modal" data-modal="#modal_1">Contact us</button>
+
+    </header>
+    
+    <section class="main">
+        <div class="main__background">
+            <img src="https://images.unsplash.com/photo-1477927849362-0fb1e7d59ee6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="rock">
+        </div>
+        <div class="main__text">
+           <h1>This is a music shop</h1> 
+           
+        </div>
+        <button class="btn" id="shopBtn">Go to shopping!</button>
+
+       
+       
+       
+    </section>
+    <section class="hamburger">   
+        <div class="hamburger__main">
+            <div class="hamburger__close">&times;</div>
+            <div class="hamburger__text">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#firstNav">How We Work</a></li>
+                    <li><a href="#second-nav">Buy Music</a></li>
+                    <li><a href="#">New Hits</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+   <section class="slides">
+
+        <div class="slidesText">
+            <p id="firstNav">How We Work</p>
+        </div>
+        <div class="offer__slider">
+            <div class="offer__slider-prev">
+                <img src="icons/left.svg" alt="prev">
+            </div>
+            <div class="offer__slider-next">
+                <img src="icons/right.svg" alt="next">
+            </div>
+            <div class="offer__slider-wrapper">
+                <div class="offer__slider-inner">
+                    <div class="offer__slide">
+                        <img src="https://images.unsplash.com/photo-1632070557521-1e563920a36b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                    </div>
+                    <div class="offer__slide">
+                        <img src="https://images.unsplash.com/photo-1550345694-89cf09eeca38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                    </div>
+                    <div class="offer__slide">
+                        <img src="https://images.unsplash.com/photo-1550345850-114c232b5fcc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                    </div>
+                    <div class="offer__slide">
+                        <img src="https://images.unsplash.com/photo-1502773860571-211a597d6e4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+     
+   </section>
+
+   <section class="music__tabs">
+    <div class="music">
+    <p id="second-nav">Buy Music</p>
+    <div class="tabs__buttons">
+        <div class="tabs__buttons-wrapper">
+            <button class="tabs all">All music</button>
+            <button class="tabs indi">Indi Rock</button>
+            <button class="tabs rock">90 Rock</button>
+            <button class="tabs ourRock">Our Rock</button>
+        </div>
+    </div>
+
+    <div class="tabs__buy">
+        <div class="tabs__buy-wrapper">
+            <div class="tab rock">
+                <div class="tab__img">
+                    <img src="https://www.udiscovermusic.com/wp-content/uploads/2019/05/Queen-Hot-Space-album-cover-820.jpg" alt="">
+                </div>
+                <div class="tab__name">Queen</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                
+                <button class="tab__btn">Buy</button>
+            </div>
+
+            <div class="tab indi">
+                <div class="tab__img">
+                    <img src="https://upload.wikimedia.org/wikipedia/ru/2/2a/Arctic_Monkeys_AM_cover.jpg" alt="">
+                </div>
+                <div class="tab__name">Artic Monkeys</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                <button class="tab__btn">Buy</button>
+            </div>
+
+            <div class="tab rock">
+                <div class="tab__img">
+                    <img src="https://lastfm.freetls.fastly.net/i/u/300x300/7fcedbba5aeb35abee6ed7d76ae602a9.jpg" alt="">
+                </div>
+                <div class="tab__name">Queen</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                <button class="tab__btn">Buy</button>
+            </div>
+
+            <div class="tab ourRock">
+                <div class="tab__img">
+                    <img src="https://cdns-images.dzcdn.net/images/cover/af3e51f38eff2cdd81bbc0c4bde88a12/264x264.jpg" alt="">
+                </div>
+                <div class="tab__name">Океан Ельзи</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                <button class="tab__btn">Buy</button>
+            </div>
+
+            <div class="tab indi">
+                <div class="tab__img">
+                    <img src="https://cdns-images.dzcdn.net/images/cover/f08424290260e58c6d76275253b316fd/264x264.jpg" alt="">
+                </div>
+                <div class="tab__name">Radiohead</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                <button class="tab__btn">Buy</button>
+            </div>
+
+            <div class="tab ourRock">
+                <div class="tab__img">
+                    <img src="https://rock.ua/rockdb/i/cd/full/906-zemlya.jpg" alt="">
+                </div>
+                <div class="tab__name">Океан Ельзи</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                <button class="tab__btn">Buy</button>
+            </div>
+
+            <div class="tab rock">
+                <div class="tab__img">
+                    <img src="https://townsquare.media/site/366/files/2019/01/ACDC.jpg?w=720&q=75" alt="">
+                </div>
+                <div class="tab__name">AC DC</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                <button class="tab__btn">Buy</button>
+            </div>
+
+            <div class="tab indi">
+                <div class="tab__img">
+                    <img src="https://cdns-images.dzcdn.net/images/cover/d7a4f9f1af8736457de34f28d50ef496/264x264.jpg" alt="">
+                </div>
+                <div class="tab__name">Arctic Monkeys</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                <button class="tab__btn">Buy</button>
+            </div>
+
+            <div class="tab rock">
+                <div class="tab__img">
+                    <img src="https://media.pitchfork.com/photos/5dd85cc9d566b300089a2227/1:1/w_600/tattooyou.jpg" alt="">
+                </div>
+                <div class="tab__name">Rolling Stones</div>
+                <div class="tab__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque voluptatem itaque. !</div>
+                <button class="tab__btn">Buy</button>
+            </div>
+        </div>
+    </div>
+</div>
+   </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
